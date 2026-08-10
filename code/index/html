@@ -231,14 +231,14 @@
         In a friendly but professional spirit, the content should not be mis-used, misrepresented, or presented as original work. It is shared in the spirit of learn, practise, create - learn from this material, practise the ideas, and then go and build something of your own. Natural copyrights apply, as they do to all original educational material, maintaining the work remains respected, credited, and sustainable for the wider learning community.
     </p>
             <figure class="content-image">
-            <img src="Initiative.jpg" alt="Learn Data Analysis With Zee">
+            <img src="media/Initiative.jpg" alt="Learn Data Analysis With Zee">
             <!-- Optional -->
             <figcaption><strong>Philosophy:</strong> Learn, Practise & Design</figcaption>
             </figure>
     <hr>
     
 <figure class="content-image">
-            <img src="ai.jpg" alt="Augmented & Agentic AI">
+            <img src="media/ai.jpg" alt="Augmented & Agentic AI">
             <!-- Optional -->
             <figcaption><strong>Modern Data Analysis:</strong> Classical Data Analysis Techniques + AI + Human Effort = AI Data Strategist</figcaption>
             </figure>
@@ -266,37 +266,37 @@
             
            
             <figure class="content-image">
-            <img src="MainProcess.jpg" alt="Quote Process">
+            <img src="media/MainProcess.jpg" alt="Quote Process">
             <!-- Optional -->
             <figcaption><strong>Main Process:</strong> Quote</figcaption>
             </figure>
             
             <figure class="content-image">
-            <img src="FactFind.jpg" alt="Fact Find">
+            <img src="media/FactFind.jpg" alt="Fact Find">
             <!-- Optional -->
             <figcaption><strong>Data Storage/Raw Data:</strong> Fact Find</figcaption>
             </figure>
             
             <figure class="content-image">
-            <img src="ConvoScript.jpg" alt="Conversation Script">
+            <img src="media/ConvoScript.jpg" alt="Conversation Script">
             <!-- Optional -->
             <figcaption><strong>Extract Entities & Attributes</strong> State Led Conversation Script Extended Using If Then Logic</figcaption>
             </figure>
             
             <figure class="content-image">
-            <img src="convoprompt.jpg" alt="Conversation Script Prompt">
+            <img src="media/convoprompt.jpg" alt="Conversation Script Prompt">
             <!-- Optional -->
             <figcaption><strong>Prompt, Output, Reshape:</strong> Conversation Script Design Prompt For Conversational Fact Find</figcaption>
             </figure>
 
             <figure class="content-image">
-            <img src="Snapshots.jpg" alt="Improving Conversation Scripts">
+            <img src="media/Snapshots.jpg" alt="Improving Conversation Scripts">
             <!-- Optional -->
             <figcaption><strong>Versions Control:</strong> Saving snapshots, auditing help improve conversation scripts based on newer findings or changing requirements.</figcaption>
             </figure>
             
             <figure class="content-image">
-            <img src="ecosystem.jpg" alt="Actionable Insight">
+            <img src="media/ecosystem.jpg" alt="Actionable Insight">
             <!-- Optional -->
             <figcaption><strong>Actionable Insight:</strong> Local Conversational Fact Find Tool For On-Premises Operations & Cloud-Based Conversational Fact Find Virtual Assistant For Remote Operations</figcaption>
             </figure>
@@ -308,7 +308,7 @@
             <p><strong>Customer Relations Focused Customer Service Analysis:</strong></p>
              
              <figure class="content-image">
-            <img src="factfind.jpg" alt="Importance Of Fact Finding">
+            <img src="media/factfind.jpg" alt="Importance Of Fact Finding">
             <!-- Optional -->
             <figcaption><strong>What Now?:</strong> Fact Find Extension</figcaption>
             </figure>
@@ -325,7 +325,7 @@
 <h3><u>GDPR & Data Analysis</u></h3>
  
  <figure class="content-image">
-            <img src="DataWork.jpg" alt="Responsible Data Work">
+            <img src="media/DataWork.jpg" alt="Responsible Data Work">
             <!-- Optional -->
             <figcaption><strong>Sensible Data Work:</strong> Each piece of data has a risk-level that can potentially trigger GDPR. <strong>Remember:</strong> Use only the data that is necessary for analysis.</figcaption>
             </figure>
