@@ -1,350 +1,152 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>The Emerging Role Of An AI Data Strategist</title>
-    <meta name="description" content="Learn Data Analysis With Zee In The Modern Age Of Augmented AI">
-
-    <style>
-        /* ---------------------------
-           Colour & layout system
-        --------------------------- */
-        :root {
-            --bg: #f5f7f9;
-            --surface: rgba(255, 255, 255, 0.94);
-            --ink: #1f2933;
-            --ink-soft: #4b5563;
-            --rule: rgba(0, 0, 0, 0.06);
-        }
- 
-        /* ---------------------------
-           Page
-        --------------------------- */
-        body {
-            margin: 0;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont,
-                         "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-            background: var(--bg);
-            color: var(--ink);
-            line-height: 1.75;
-        }
-
-        /* ---------------------------
-           Reading container
-        --------------------------- */
-        main {
-            max-width: 880px;
-            margin: clamp(1.5rem, 4vw, 4rem) auto;
-            padding: clamp(2rem, 4vw, 3.5rem);
-
-            background: var(--surface);
-            backdrop-filter: saturate(1.05) blur(2px);
-            border-radius: 16px;
-
-            box-shadow:
-                0 1px 3px rgba(0,0,0,0.04),
-                0 16px 48px rgba(0,0,0,0.08);
-        }
-
-        /* ---------------------------
-           Headings
-        --------------------------- */
-        h1 {
-            font-size: clamp(2rem, 4.5vw, 2.75rem);
-            line-height: 1.2;
-            margin-top: 0;
-        }
-
-        h2 {
-            font-size: clamp(1.5rem, 3.5vw, 2rem);
-            margin-top: 3rem;
-        }
-
-        h3 {
-            font-size: 1.25rem;
-            margin-top: 2.5rem;
-        }
-
-        h4 {
-            font-size: 1.1rem;
-            margin-top: 2rem;
-        }
-
-        /* ---------------------------
-           Body text
-        --------------------------- */
-        p {
-            margin: 1rem 0;
-            color: var(--ink);
-        }
-
-        /* ---------------------------
-           Lists
-        --------------------------- */
-        ul {
-            margin: 1.25rem 0 1.75rem 1.25rem;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 0.6rem;
-            color: var(--ink-soft);
-        }
-
-        /* ---------------------------
-           Dividers
-        --------------------------- */
-        hr {
-            border: none;
-            border-top: 1px solid var(--rule);
-            margin: 3.5rem 0;
-        }
-
-        /* ---------------------------
-           Mobile tuning
-        --------------------------- */
-        @media (max-width: 600px) {
-            main {
-                margin: 1rem;
-                padding: 1.5rem;
-                border-radius: 12px;
-            }
-        }
-        /* ---------------------------
-   Table
---------------------------- */
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 3rem 0;
-    font-size: 0.95rem;
-    background: transparent;
-}
-
-/* Header */
-.table thead th {
-    text-align: left;
-    font-weight: 600;
-    padding: 0.9rem 1rem;
-    color: var(--ink);
-    border-bottom: 2px solid var(--rule);
-    background: transparent;
-}
-
-/* Body cells */
-.table tbody td {
-    padding: 0.9rem 1rem;
-    vertical-align: top;
-    border-bottom: 1px solid var(--rule);
-    color: var(--ink-soft);
-}
-
-/* First column (Field names) */
-.table tbody td:first-child {
-    font-weight: 500;
-    color: var(--ink);
-    white-space: nowrap;
-}
-
-/* Subtle hover for readability */
-.table tbody tr:hover {
-    background: rgba(0, 0, 0, 0.02);
-}
-
-/* Mobile handling */
-@media (max-width: 600px) {
-    .table {
-        font-size: 0.9rem;
-    }
-
-    .table thead {
-        display: none;
-    }
-
-    .table tbody tr {
-        display: block;
-        margin-bottom: 1.5rem;
-        border-bottom: 2px solid var(--rule);
-    }
-
-    .table tbody td {
-        display: block;
-        padding: 0.5rem 0;
-        border-bottom: none;
-    }
-
-    .table tbody td:first-child {
-        font-size: 0.85rem;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-        margin-bottom: 0.25rem;
-        color: var(--ink-soft);
-    }
-}
-
-        /* ---------------------------
-   Content images
---------------------------- */
-
-.content-image {
-    margin: 2.5rem 0;
-}
-
-.content-image img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-}
-
-/* Optional caption styling */
-.content-image figcaption {
-    margin-top: 0.75rem;
-    font-size: 0.9rem;
-    color: var(--ink-soft);
-}
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Analysis Ladder">
+    <title>Data Analysis Ladder</title>
 </head>
-
 <body>
 
+<header>
+    <h1>Data Analysis Ladder</h1>
+</header>
+
 <main>
+    <table border="1">
+        <tr>
+            <td><strong>Data analysis ladder</strong></td>
+            <td></td>
+            <td></td>
+        </tr>
 
-    <h1>About Learn Data Analysis With Zee</h1>
+        <tr>
+            <td><strong>Question defined</strong></td>
+            <td><strong>Actionable insight</strong></td>
+            <td><strong>What now</strong></td>
+        </tr>
+
+        <tr>
+            <td>
+                <strong>
+                    What steps will the business take to provide a positive customer experience during the quotation process?
+                </strong>
+            </td>
+
+            <td>
+                <p><strong>Quote process strategy (experience, experimentation & evolution):</strong></p>
+
+                <p><strong>Agent A</strong> (Operational Phase):</p>
+                <ul>
+                    <li>Create customer profile & note their requirements</li>
+                    <li>Mail/share to/with Agent B</li>
+                </ul>
+
+                <p><em>Usually administrative tasks</em></p>
+
+                <p><strong>Agent B</strong> (Operational & Commercial Phase):</p>
+
+                <p>Negotiate with stakeholders:</p>
+
+                <ul>
+                    <li>Customers directly to deliver them their quote price</li>
+                    <li>Customers via third-party companies who own/share risk the product as far as the product is concerned</li>
+                    <li>Mail/share to/with Agent A</li>
+                </ul>
+
+                <p><em>Usually sales teams/agentic AI for sales</em></p>
+
+                <p><strong>Agent A</strong> (Storage & Presentation):</p>
+
+                <ul>
+                    <li>
+                        Stores customer profile, requirements information alongside the sales outcome and highlights
+                        of the interaction between agent and customer across various reports.
+                    </li>
+                    <li>Mail/share to/with team leads/directors</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <li>
+                        <strong>Agent toolbox (snapshots of templates)</strong> for conversational fact finding
+                        during live interactions.
+                    </li>
+
+                    <li>
+                        <strong>Conversational fact finds library (snapshots of interactions):</strong>
+                        <ol>
+                            <li>Conversation introduction scripts based on direction.</li>
+                            <li>Conversational style fact-find questions for customer profiling and requirements.</li>
+                            <li>What happens next as per quote process strategy.</li>
+                            <li>Delivery of pricing event conversation scripts.</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <strong>Stakeholder query reports:</strong>
+                        <ol>
+                            <li>Customer query consisting of client details, query and resolution.</li>
+                            <li>Company query consisting of company details, query and resolution.</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <strong>Anomalies detected report:</strong>
+                        Unusual events during the quote process that require corrective action,
+                        usually including customer/contact details, anomaly detected and resolution.
+                    </li>
+
+                    <li>
+                        <strong>Outliers flagged report:</strong>
+                        <ol>
+                            <li>Review historical fact-find data.</li>
+                            <li>Investigate causes and contributing reasons to profile risk.</li>
+                            <li>Train agents using lessons learned.</li>
+                            <li>Record client details, outlier flagged, investigation and status.</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <strong>Quotes today report:</strong>
+                        Combines operational and commercial outcomes of each quote,
+                        usually including client details, product type, agent notes and pricing event.
+                    </li>
+
+                    <li>
+                        <strong>Advertisement channels report:</strong>
+                        Includes client details, product type, advertisement channel,
+                        conversion status and customer review if converted.
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Additional Notes</h2>
 
     <p>
-        The Learn Data Analysis with Zee initiative is focused on enlightening people about modern data work while staying grounded in the principles of traditional data analysis. It connects established analytical thinking with contemporary tools, practices, and ways of working, helping learners understand both the evolution of data analysis and its practical application today.
+        <strong>Researching reports:</strong>
+        Make mappings between reports across the business timeline.
     </p>
 
     <p>
-        This initiative is free to access and is not registered, accredited, or formally certified. It exists purely in an educative spirit — to encourage curiosity, critical thinking, and skill development for anyone interested in learning more about data analysis, regardless of background or experience.
+        <strong>Governance for cloud based operating model:</strong>
+        Business account.
     </p>
 
     <p>
-        The material is intended to be used constructively: to learn, practise, reflect, and discuss. Learners are welcome to apply the ideas to their own projects and learning journeys, while using sound judgement and ethical practice.
+        <strong>Ethics for AI use:</strong>
+        Creativity, prompting Copilot programs initially and agentic AI workflows.
     </p>
-
-    <p>
-        In a friendly but professional spirit, the content should not be mis-used, misrepresented, or presented as original work. It is shared in the spirit of learn, practise, create - learn from this material, practise the ideas, and then go and build something of your own. Natural copyrights apply, as they do to all original educational material, maintaining the work remains respected, credited, and sustainable for the wider learning community.
-    </p>
-            <figure class="content-image">
-            <img src="media/Initiative.jpg" alt="Learn Data Analysis With Zee">
-            <!-- Optional -->
-            <figcaption><strong>Philosophy:</strong> Learn, Practise & Design</figcaption>
-            </figure>
-    <hr>
-    
-<figure class="content-image">
-            <img src="media/ai.jpg" alt="Augmented & Agentic AI">
-            <!-- Optional -->
-            <figcaption><strong>Modern Data Analysis:</strong> Classical Data Analysis Techniques + AI + Human Effort = AI Data Strategist</figcaption>
-            </figure>
-  <h2>Customer Service Analysis Stack</h2>
-
-    <h4>Goals Of Customer Service Analysis:</h4>
-    <ol>
-        <li>
-            <p><strong>Goal A:</strong></p>
-            <p>To achieve great customer service means to provide customers with <u>help</u> in relation to the main process (quote).</p>
-        </li>
-        <li>
-            <p><strong>Goal B:</strong></p>
-            <p>The benefits of great customer service is to <u>convert</u> leads that are generated.</p>
-        </li>
-         <li>
-            <p><strong>Goal C:</strong></p>
-            <p>A business offers services to a <u>customer</u> through the product that they advertise.</p>
-        </li>
-    </ol>
-    <h4>Let's Get Started:</h4>
-    
-        
-            <figure class="content-image">
-            <img src="media/MainProcess.jpg" alt="Quote Process">
-            <!-- Optional -->
-            <figcaption><strong>Main Process:</strong> Quote</figcaption>
-            </figure>
-            
-            <figure class="content-image">
-            <img src="media/FactFind.jpg" alt="Fact Find">
-            <!-- Optional -->
-            <figcaption><strong>Data Storage/Raw Data:</strong> Fact Find</figcaption>
-            </figure>
-            
-            <figure class="content-image">
-            <img src="media/ConvoScript.jpg" alt="Conversation Script">
-            <!-- Optional -->
-            <figcaption><strong>Extract Entities & Attributes</strong> State Led Conversation Script Extended Using If Then Logic</figcaption>
-            </figure>
-            
-            <figure class="content-image">
-            <img src="media/convoprompt.jpg" alt="Conversation Script Prompt">
-            <!-- Optional -->
-            <figcaption><strong>Prompt, Output, Reshape:</strong> Conversation Script Design Prompt For Conversational Fact Find</figcaption>
-            </figure>
-
-            <figure class="content-image">
-            <img src="media/Snapshots.jpg" alt="Improving Conversation Scripts">
-            <!-- Optional -->
-            <figcaption><strong>Versions Control:</strong> Saving snapshots, auditing help improve conversation scripts based on newer findings or changing requirements.</figcaption>
-            </figure>
-            
-          <figure class="content-image">
-            <img src="media/localtocloud.jpeg" alt="Cloud Storage">
-            <!-- Optional -->
-            <figcaption><strong>Cloud Storage:</strong> Local & Cloud Storage Set The Foundation For Safe Data Work As The Analytics Ladder Is Climbed.</figcaption>
-            </figure>
-    
-        
-         
-       
-        
-    
-             <figure class="content-image">
-            <img src="media/analysismethod.jpeg" alt="Analytics Ladder Basic">
-            <!-- Optional -->
-            <figcaption><strong>Getting On With The Analysis:</strong> Proven Way That Yields Results.</figcaption>
-            </figure>
-    
-      <figure class="content-image">
-            <img src="media/ladderexplained.jpeg" alt="Analytics Ladder Basic">
-            <!-- Optional -->
-            <figcaption><strong>Defining Questions That Reflect The Goals Of Analysis:</strong> Improves On Insight Gained & Increases Insight For Future Development.</figcaption>
-            </figure>
-    
-      <figure class="content-image">
-            <img src="media/factfindrepo.jpeg" alt="Fact Find Repository">
-            <!-- Optional -->
-            <figcaption><strong>1st Question Defined, Goal 1 Met:</strong> Think! How Might You Want To Prompt An AI Copilot Agent To Create A Repository So That More Time Can Be Spent Focusing On Customer Service.</figcaption>
-            </figure>
-
- 
-      <figure class="content-image">
-            <img src="media/strategy.jpeg" alt="Quote Process Strategy">
-            <!-- Optional -->
-            <figcaption><strong>2nd Question Defined, Goal 2 Met:</strong> The Strategy Is A Flexible Way To Train Agents To Continously Align Their Actions With The Operational & Commercial Objectives Of The Business.</figcaption>
-            </figure>
-    
-      <figure class="content-image">
-            <img src="media/adchannel.jpeg" alt="Ad Channel">
-            <!-- Optional -->
-            <figcaption><strong>3rd Question Defined, Goal 3 Met:</strong> Advertising Channels Are What Using The Product Reaches The Customer.</figcaption>
-            </figure>
-
-        <figure class="content-image">
-            <img src="media/commercialoutcome.jpeg" alt="Commercial Outcome">
-            <!-- Optional -->
-            <figcaption><strong>Operational & Commercial Outcome:</strong> How Commercial Objectives Stem From Operations.</figcaption>
-            </figure>
-    
-<hr>
-    
-    
-<p><i><b>Please note:</b> Site under construction</i></p>
 </main>
+
+<footer>
+    <p>© 2026 - Site Under Construction</p>
+</footer>
 
 </body>
 </html>
+
+
