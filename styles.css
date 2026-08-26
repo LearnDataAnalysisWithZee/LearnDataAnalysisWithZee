@@ -1,53 +1,33 @@
-html {
-    scroll-behavior: smooth;
+html { 
+  scroll-behavior: smooth; 
 }
 
-body {
-    font-family: "Arial Nova", Arial, sans-serif;
-    margin: clamp(1rem, 3vw, 3rem);
-    line-height: 1.6;
-    overflow-x: auto;
+body { 
+  font-family: Arial Nova, Arial, sans-serif; 
+  line-height: 1.6; 
+  padding: 2vw; /* Simplifies margins and prevents edge crowding */
 }
 
-.nav-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: clamp(0.5rem, 2vw, 1.5rem);
-    padding: 0;
-    list-style: none;
+/* Combines navigation structure and link styles */
+.nav-list { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  list-style: none; 
+  padding: 0; 
+}
+.nav-list a { 
+  color: inherit; 
+  text-decoration: none; 
+}
+.nav-list a:hover, .nav-list a:focus { 
+  text-decoration: underline; 
 }
 
-.nav-list a {
-    color: inherit;
-    text-decoration: none;
-}
+/* Uses dynamic viewport units for effortless scaling */
+section { margin-top: 6vw; }
+article { margin-top: 4vw; }
 
-.nav-list a:hover,
-.nav-list a:focus {
-    text-decoration: underline;
-}
-
-section {
-    margin-top: clamp(2rem, 5vw, 5rem);
-}
-
-article {
-    margin-top: clamp(1.5rem, 3vw, 3rem);
-}
-
-h1 {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-}
-
-h2 {
-    font-size: clamp(1.3rem, 3vw, 1.8rem);
-}
-
-h3 {
-    font-size: clamp(1.1rem, 2vw, 1.4rem);
-}
-
-ul,
-ol {
-    padding-left: clamp(1.25rem, 3vw, 2rem);
-}
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.2rem; }
