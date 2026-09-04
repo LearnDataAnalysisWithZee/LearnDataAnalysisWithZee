@@ -115,7 +115,7 @@
                 <ol>
                     <li>extract from agents note strictly KPIs that are related to the transfer of the product from a business to the customer e.g. quoted, membership renewed, membership renewal request or purchased</li>
                     <li>create KPI lists for each KPI extracted from agents note segment inside the quotes today report</li>
-                    <li>each list contains three segments, agents note (KPI), policy type & pricing event (net)</li>
+                    <li>each list contains three segments, agents note (KPI), product/product type & pricing event (net)</li>
                     <li>across the timeline combine the daily findings from KPI lists into an grander KPI corpus</li>                  
                 </ol>
             </li>
@@ -123,14 +123,14 @@
     </li>
 
 <li>
-        <strong>quotes today (KPI list)</strong>
+        <strong>quotes today (KPI list{s})</strong>
         <ul>
             <li><strong>query:</strong> agents note (KPI) against policy type & pricing event (net)</li>
             <li>
                 <strong>result:</strong>
                 <ol>
                     <li>extract from the KPI list, a KPI and an product/product type, and create a new outlier detected list</li>
-                    <li>search the KPI list for 3 or more interactions where the KPI and product/product type match</li>
+                    <li>search the KPI list for pricing events that have a long range distance between them, where the KPI and product/product type match</li>
                     <li>extend the outlier detected list to add, the extracted net pricing events that are either significantly low or high, also add the stakeholder involved if any at all between the customer and business such as an vendor</li>
                     <li>the stakeholder information can be derived from the initial quotes today report</li>
                 </ol>
