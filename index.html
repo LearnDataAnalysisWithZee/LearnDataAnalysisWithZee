@@ -12,9 +12,9 @@
 <body>
 <nav aria-label="Main navigation">
   <ul class="nav-list">
-    <li><a href="#definition">Lesson 1: Scraping Data </a></li>
-    <li><a href="#types">Lesson 2: Define Question</a></li>
-  <li><a href="#guide">Lesson 3: Cleaning Data</a></li>
+    <li><a href="#definition">Session 1: Scraping Data </a></li>
+    <li><a href="#types">Session 2: Define Question</a></li>
+  <li><a href="#guide">Session 3: Cleaning Data</a></li>
     
   </ul>
 </nav>
@@ -79,21 +79,28 @@
                     Training:
                 </b>
             </p>
-            <ul>
-                <li>
-                    Recognise relational constraints
-                </li>
-                <li>
-                    Provide a split database action plan based on roles/privelege's
-                </li>
-                <li>
-                    Prepare host environment for dataset fetch action
-                </li>
-            </ul>
-
- 
-
-            
+            <p>
+                The host environment is known as a dataset that captures all the relevant fields from the database for the analysis process to begin.
+            </p>
+            <p>
+                Before an analysis can begin, an analyst gets permission to pull the necessary information into a host environment known as an dataset. 
+            </p>
+            <p>
+                Because the database tables are properly connected (referential integrity), the analyst can easily search through this data to find the information needed for their project that will provide with the means (context) to perform analysis. 
+            </p>
+            <p>
+                In fact, data will continuously be in transit from the database to the dataset and while personal data is not required to even be read, let alone used. However, if there is a specific requirement to use it, that personal data must first be anonymised. 
+            </p>
+            <p>
+                There are therefore pipeline rules to be set for when data is being fetched from the database to maintain a logical link with the dataset yet the physical link with the database is hidden.
+            </p>
+             <p>     
+              <b>Rule 1:</b> Column exclusion 
+             </p>
+             <p>     
+              <b>Rule 2:</b> Data generalisation
+             </p>
+       
         </section>
 
         <section id="types">
